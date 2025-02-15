@@ -27,25 +27,25 @@ Before you begin, ensure you have the following installed:
 
 Follow these steps to set up the project locally:
 
-1. Clone the repository:
+### 1. Clone the repository:
 
     git clone https://github.com/lehmand/join_fullstack_backend.git  
     cd join_fullstack_backend
 
-2. Create a virtual environment:
+### 2. Create a virtual environment:
 
     python -m venv env    
     source env/bin/activate  # On Windows, use "env/Scripts/activate"
 
-3. Install dependencies:
+### 3. Install dependencies:
 
     pip install -r requirements.txt
 
-4. Run migrations:
+### 4. Run migrations:
 
     python manage.py makemigrations  
     python manage.py migrate
 
-5. Run server: 
+### 5. Run server: 
 
     python manage.py runserver
