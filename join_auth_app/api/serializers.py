@@ -25,7 +25,8 @@ class RegisterSerializer(serializers.ModelSerializer):
 class UserListSerializer(RegisterSerializer):
     class Meta:
         model = CustomUser
-        fields = ['id', 'username', 'email', 'date_joined', 'last_login']
+        fields = '__all__'
+        # fields = ['id', 'username', 'email', 'date_joined', 'last_login']
 
 class UserDetailSerializer(UserListSerializer):
     class Meta:
