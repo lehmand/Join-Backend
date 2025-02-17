@@ -7,14 +7,17 @@ def load_initial_data(sender, **kwargs):
     """
     from django.core.management import call_command
 
-    # List of fixture files to load
+    from join_app.models import Task
+    if Task.objects.exists():
+        print("Database already contains data. Skipping fixture loading.")
+        return
+
     fixtures = [
-        'contacts.json',  # Fixture for Contact
-        'tasks.json',  # Fixture for Task
-        'subtasks.json',  # Fixture for SubTask
+        'contacts.json',
+        'tasks.json',
+        'subtasks.json', 
     ]
 
-    # Load each fixture
     for fixture in fixtures:
         try:
             call_command('loaddata', fixture)

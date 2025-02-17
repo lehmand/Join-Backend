@@ -1,0 +1,1 @@
+default_app_config = 'join_auth_app.apps.JoinAuthAppConfig'
