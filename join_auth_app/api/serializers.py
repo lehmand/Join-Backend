@@ -30,4 +30,5 @@ class UserListSerializer(RegisterSerializer):
 class UserDetailSerializer(UserListSerializer):
     class Meta:
         model = CustomUser
-        fields = ['id', 'username', 'email', 'password', 'date_joined', 'last_login']
+        fields = '__all__'
+        # fields = ['id', 'username', 'email', 'password', 'date_joined', 'last_login']
