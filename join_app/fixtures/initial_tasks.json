@@ -1,0 +1,41 @@
+[
+    {
+        "model": "join_app.task",
+        "pk": 22,
+        "fields": {
+            "title": "Backend implementieren",
+            "board_category": "to-do",
+            "description": "Tasks in das Board laden via fetch Befehl.",
+            "assignees": [1],
+            "date": "2025-08-13",
+            "priority": "medium",
+            "category": "technical task"
+        }
+    },
+    {
+        "model": "join_app.task",
+        "pk": 23,
+        "fields": {
+            "title": "Seite auf Fehler überprüfen",
+            "board_category": "in-progress",
+            "description": "Console errors beheben.",
+            "assignees": [8, 9, 10],
+            "date": "2025-02-20",
+            "priority": "medium",
+            "category": "technical task"
+        }
+    },
+    {
+        "model": "join_app.task",
+        "pk": 24,
+        "fields": {
+            "title": "Fixtures implementieren",
+            "board_category": "done",
+            "description": "Datenbank mit daten versehen nach migration",
+            "assignees": [1],
+            "date": "2025-02-21",
+            "priority": "urgent",
+            "category": "technical task"
+        }
+    }
+]

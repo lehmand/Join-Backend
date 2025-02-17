@@ -1,0 +1,29 @@
+[
+    {
+        "model": "join_app.subtask",
+        "pk": 28,
+        "fields": {
+            "title": "Url in einer Variablen speichern",
+            "completed": false,
+            "task": 22
+        }
+    },
+    {
+        "model": "join_app.subtask",
+        "pk": 39,
+        "fields": {
+            "title": "Für contacts",
+            "completed": false,
+            "task": 24
+        }
+    },
+    {
+        "model": "join_app.subtask",
+        "pk": 40,
+        "fields": {
+            "title": "Für tasks",
+            "completed": false,
+            "task": 24
+        }
+    }
+]

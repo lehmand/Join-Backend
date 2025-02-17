@@ -1,0 +1,62 @@
+[
+    {
+        "model": "join_app.contact",
+        "pk": 1,
+        "fields": {
+            "user": 4,
+            "name": "Daniel Lehmann",
+            "email": "daniel@gmail.com",
+            "phone": "0012",
+            "initials": "",
+            "color": ""
+        }
+    },
+    {
+        "model": "join_app.contact",
+        "pk": 8,
+        "fields": {
+            "user": 4, 
+            "name": "Olaf Scholz",
+            "email": "olli@gmail.com",
+            "phone": "0012934",
+            "initials": "",
+            "color": ""
+        }
+    },
+    {
+        "model": "join_app.contact",
+        "pk": 9,
+        "fields": {
+            "user": 4, 
+            "name": "Robert Habeck",
+            "email": "robby@gmail.com",
+            "phone": "9920202",
+            "initials": "",
+            "color": ""
+        }
+    },
+    {
+        "model": "join_app.contact",
+        "pk": 10,
+        "fields": {
+            "user": 9, 
+            "name": "Friedrich Merz",
+            "email": "freddy@gmail.com",
+            "phone": "00",
+            "initials": "",
+            "color": ""
+        }
+    },
+    {
+        "model": "join_app.contact",
+        "pk": 11,
+        "fields": {
+            "user": 9,
+            "name": "Angela Merkel",
+            "email": "angi@gmail.com",
+            "phone": "123344444",
+            "initials": "",
+            "color": ""
+        }
+    }
+]
