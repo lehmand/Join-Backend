@@ -29,8 +29,8 @@ Follow these steps to set up the project locally:
 
 1. Clone the repository:
 
-    git clone https://github.com/lehmand/join_fullstack_backend.git  
-    cd join_fullstack_backend
+    git clone https://github.com/lehmand/Join-Backend.git  
+    cd Join-Backend
 
 2. Create a virtual environment:
 
