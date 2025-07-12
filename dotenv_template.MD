@@ -1,14 +1,17 @@
 # Dotenv Template
 
+Create a .env file in your project root folder.
 Use this template and copy its content to your '.env' file and set the variables.
 
-SECRET_KEY =
+*Note: No whitespace allowed arround the equal sign.
 
-DEBUG =
+SECRET_KEY=
 
-ALLOWED_HOSTS =
+DEBUG=
 
-CSRF_TRUSTED_ORIGINS =
+ALLOWED_HOSTS=
 
-CORS_ALLOWED_ORIGINS =
+CSRF_TRUSTED_ORIGINS=
+
+CORS_ALLOWED_ORIGINS=
 
