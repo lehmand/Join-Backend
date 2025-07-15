@@ -16,9 +16,14 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('join_app.api.urls')),
     path('auth/', include('join_auth_app.api.urls')),
 ]
+
+# Serve static files in development/Docker
+urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
